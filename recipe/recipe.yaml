@@ -12,7 +12,7 @@ source:
   sha256: 261e62effd8b8fcc67f32c2b7dde5b92779cdbf47ba6320bb862ad9b1f1060ce
 
 build:
-  number: 0
+  number: 1
   # not noarch: setup.py templates the build interpreter's purelib path
   # (lib/pythonX.Y/site-packages) into bin/radical-orbit-endpoint-wrapper.sh
   # POSIX-only upstream (shell-script entry points, POSIX classifiers)
